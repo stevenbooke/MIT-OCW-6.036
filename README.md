@@ -1,2 +1,4 @@
 # MIT-OCW-6.036
 This repository contains solutions to MIT OCW Introduction to Machine Learning (6.036) course. [Here](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/) is the link to the course.
+
+I ran into some issues with the code distribution for homework 8, so I went ahead and created a Convolutional Neural Network model (using MNIST dataset, TensorFlow and Keras) that, given an image of any digit from 0-9 tries to predict that digit. This model can be found in the `mnist_cnn.py` file. Classification of the MNIST digits is a competion on Kaggle. For those who have not used Kaggle and would like to make their first submission to build up their Machine Leanring portfolio, they can use the model in that file, tweak as necessary and make there first submission. [Here](https://www.kaggle.com/c/digit-recognizer) is the link to the Kaggle competition.
